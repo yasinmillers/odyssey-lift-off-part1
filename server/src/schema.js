@@ -14,7 +14,7 @@ modulesCout: int
 
 }
 type Author {
-    id: ID! 
+    id: int! 
     name: String! 
     photo: String
 }
