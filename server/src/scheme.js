@@ -1,7 +1,7 @@
 const { gql } = require('apollo-server');
 const typeDefs = gql `
     type Query {
-        
+TrackHome: [Track!]! # Tracks on the home page
     }
 " track is a collection of modules  thatteaches about specific topic"
 type Track {
